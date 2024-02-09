@@ -1,0 +1,59 @@
+/* App.module.css */
+
+.calculator {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #222;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+}
+
+/* ButtonsContainer.module.css */
+
+.buttonsContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+    
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+.button:focus {
+  background-color: #888;
+}
+
+/* Operator buttons */
+.operator-button {
+  background-color: #ff9800;
+  color: #fff;
+}
+
+/* Equals button */
+.equals-button {
+  background-color: #f44336;
+  color: #fff;
+}
+
+/* Clear button */
+.clear-button {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+/* Additional styles can be added for other buttons as needed */
